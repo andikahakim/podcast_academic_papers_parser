@@ -1,0 +1,6 @@
+whisper
+youtube-transcript-api
+yt-dlp
+torch
+transformers
+nougat-ocr
