@@ -50,18 +50,18 @@ The converted Markdown files and corresponding JSON metadata files will be saved
 
 ## Project Structure
 ```
-    your_project/
-    │
-    ├── src/
-    │ ├── convert_pdf.py
-    │ └── transcribe_podcast.py
-    │
-    ├── input_papers/ # Place your PDF files here
-    │
-    ├── output/
-    │ ├── podcasts/ # Transcriptions will be saved here
-    │ └── publications/ # Converted Markdown files and JSON metadata will be saved here
-    │
-    ├── requirements.txt
-    └── README.md
+Breadcrumbspodcast_academic_papers_parser/
+│
+├── src/
+│ ├── convert_pdf.py
+│ └── transcribe_podcast.py
+│
+├── input_papers/ # Place your PDF files here
+│
+├── output/
+│ ├── podcasts/ # Transcriptions will be saved here
+│ └── publications/ # Converted Markdown files and JSON metadata will be saved here
+│
+├── requirements.txt
+└── README.md
 ```
