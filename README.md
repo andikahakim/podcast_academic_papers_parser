@@ -50,7 +50,7 @@ The converted Markdown files and corresponding JSON metadata files will be saved
 
 ## Project Structure
 ```
-Breadcrumbspodcast_academic_papers_parser/
+podcast_academic_papers_parser/
 │
 ├── src/
 │ ├── convert_pdf.py
