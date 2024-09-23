@@ -7,7 +7,7 @@ This project provides scripts to transcribe podcasts from audio files or YouTube
 1. Clone the repository:
     ```sh
     git clone https://github.com/andikahakim/podcast_academic_papers_parser.git
-    cd <repository_directory>
+    cd podcast_academic_papers_parser
     ```
 
 2. Create a virtual environment and activate it:
@@ -65,4 +65,3 @@ podcast_academic_papers_parser/
 ├── requirements.txt
 └── README.md
 ```
->>>>>>> origin/master
