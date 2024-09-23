@@ -6,7 +6,7 @@ This project provides scripts to transcribe podcasts from audio files or YouTube
 
 1. Clone the repository:
     ```sh
-    git clone <repository_url>
+    git clone https://github.com/andikahakim/podcast_academic_papers_parser.git
     cd <repository_directory>
     ```
 
@@ -43,23 +43,25 @@ The transcriptions will be saved as JSON files in the `output/podcasts` director
 
 To convert PDFs to Markdown format, use the `convert_pdf.py` script.
 ```sh
-python src/python src/convert_pdf.py <input_folder>
+python src/python src/convert_pdf.py input_papers
 ```
 
 The converted Markdown files and corresponding JSON metadata files will be saved in the `output/publications` directory.
 
 ## Project Structure
-your_project/
-│
-├── src/
-│ ├── convert_pdf.py
-│ └── transcribe_podcast.py
-│
-├── input_papers/ # Place your PDF files here
-│
-├── output/
-│ ├── podcasts/ # Transcriptions will be saved here
-│ └── publications/ # Converted Markdown files and JSON metadata will be saved here
-│
-├── requirements.txt
-└── README.md
+```
+    your_project/
+    │
+    ├── src/
+    │ ├── convert_pdf.py
+    │ └── transcribe_podcast.py
+    │
+    ├── input_papers/ # Place your PDF files here
+    │
+    ├── output/
+    │ ├── podcasts/ # Transcriptions will be saved here
+    │ └── publications/ # Converted Markdown files and JSON metadata will be saved here
+    │
+    ├── requirements.txt
+    └── README.md
+```
