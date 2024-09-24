@@ -14,7 +14,7 @@ def convert_pdf_to_markdown(pdf_path, output_folder):
     print(f"Running command: {' '.join(command)}")  # Debug statement
     
     # Run the command
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = subprocess.run(command, capture_output=True, text=True, encoding='utf-8')  # Set encoding to 'utf-8'
     
     # Check the result
     if result.returncode != 0:

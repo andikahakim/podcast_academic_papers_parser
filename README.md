@@ -19,6 +19,9 @@ This project provides scripts to transcribe podcasts from audio files or YouTube
 3. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
+    pip install git+https://github.com/SichangHe/facebookresearch--nougat.git
+    <!-- if you have GPU please install torch with GPU -->
+        <!-- for example: pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121 -->
     ```
 
 ## Usage

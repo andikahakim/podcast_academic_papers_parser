@@ -4,3 +4,4 @@ yt-dlp
 torch
 transformers
 nougat-ocr
+albucore==0.0.16

@@ -1,5 +1,7 @@
 # Ignore the virtual environment folder
 venv/
+input_papers/
+output/
 
 # Ignore other common files and folders
 __pycache__/
