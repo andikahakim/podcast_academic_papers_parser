@@ -10,7 +10,7 @@ def convert_pdf_to_markdown(pdf_path, output_folder):
         os.makedirs(output_folder)
     
     # Construct the command
-    command = ["nougat", "--markdown", "pdf", pdf_path, "--out", output_folder]
+    command = ["nougat", "--markdown", "pdf", pdf_path, "--out", output_folder, "--full-precision", "--no-skipping"]
     print(f"Running command: {' '.join(command)}")  # Debug statement
     
     # Run the command
